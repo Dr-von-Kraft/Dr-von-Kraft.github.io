@@ -1,0 +1,61 @@
+.flex-container {
+	padding: 25px;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.flex-item {
+	padding: 50px;
+	width: 25px;
+	height: 12px;
+	margin-top: 10px;
+	
+	line-height: 25px;
+	color: black;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	border-radius:50%;
+}
+
+body {
+background-color:gray;
+}
+h1 {
+	color:white;
+}
+i {
+	color:white;
+	font-size:30px;
+	padding=20px;
+}
+p {
+	color:white;
+	font-size:30px;
+}
+a {
+	color:white;
+	padding:10px;
+}
+
+.image {
+	padding: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 80%;
+}
+
+.image-borderless {
+	padding: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+audio {
+	padding:25px;
+}
